@@ -1,0 +1,43 @@
+{
+  "company": "Acme Corporation",
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "department": "Engineering",
+      "skills": ["Java", "Python", "SQL"],
+      "manager": {
+        "id": 101,
+        "name": "Alice Smith",
+        "department": "Engineering"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "department": "Marketing",
+      "skills": ["Marketing Strategy", "Social Media Management"],
+      "manager": {
+        "id": 201,
+        "name": "Bob Johnson",
+        "department": "Marketing"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "P001",
+      "name": "Product X Launch",
+      "description": "Launch of our new flagship product",
+      "team": [1, 2],
+      "status": "In Progress"
+    },
+    {
+      "id": "P002",
+      "name": "Website Redesign",
+      "description": "Complete overhaul of company website",
+      "team": [1],
+      "status": "Pending Approval"
+    }
+  ]
+}
